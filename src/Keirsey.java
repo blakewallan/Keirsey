@@ -128,7 +128,7 @@ public class Keirsey {
         return scores;
     }
 
-    //this method cleans up the code by putting all the output in a method
+    //this method displays results
     public static void outputResults() throws FileNotFoundException {
         Scanner openFile = new Scanner(new File("personality.txt"));
         while (openFile.hasNextLine()) {
